@@ -1,0 +1,19 @@
+
+{
+    "name": "tscms/sitemap",
+    "type": "kohana-module",
+    "description": "Sitemap for Kohana",
+    "homepage": "https://github.com/tscms/sitemap/",
+    "keywords": ["kohana","sitemap"],
+    "require": {
+        "php": ">=5.4",
+        "composer/installers": "1.*"
+    },
+    "extra": {
+        "installer-paths": {
+            "vendor/kohana/modules/{$name}/": [
+                "type:kohana-module"
+            ]
+        }
+    }
+}
